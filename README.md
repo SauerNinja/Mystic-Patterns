@@ -2,9 +2,9 @@
 
 ![Mystic Patterns hero](hero.jpg)
 
-**Mystic Patterns: How Altered Brains Manufacture Meaning** is a research article. Estimated reading time: 34 minutes.
+**Mystic Patterns: How Altered Brains Manufacture Meaning** is a research article. Estimated reading time: 64 minutes.
 
-The article argues that hyperactive pattern recognition — apophenia — is a single, continuous neurological spectrum rather than a collection of unrelated phenomena. It traces that spectrum through the chemistry of dopamine and psychedelics, the structural failures of brain injury and psychosis, the threat-driven logic of trauma and dissociation, and the mathematics of Signal Detection Theory. From there it turns to history: the geologically confirmed ethylene trance of the Oracle of Delphi, the deliberate brainwave entrainment engineered into Egyptian temples, Stonehenge, and Paleolithic cave ritual, the secrecy strategies of the Pythagorean Brotherhood and the Eleusinian Mysteries, and a set of matched historical case studies — Percival Lowell's hallucinated Martian canals against John Snow's cholera map, Mendeleev's periodic table, and Alan Turing's break of Enigma — showing when pattern recognition finds real signal and when it manufactures noise into meaning.
+The article argues that hyperactive pattern recognition — apophenia — is a single, continuous neurological spectrum rather than a collection of unrelated phenomena. It traces that spectrum through the chemistry of dopamine and psychedelics, the structural failures of brain injury and psychosis, the threat-driven logic of trauma and dissociation, and the mathematics of Signal Detection Theory. From there it turns to history: the geologically confirmed ethylene trance of the Oracle of Delphi, the deliberate brainwave entrainment engineered into Egyptian temples, Stonehenge, and Paleolithic cave ritual, the secrecy strategies of the Pythagorean Brotherhood and the Eleusinian Mysteries, and a wide set of matched case studies — Percival Lowell's hallucinated Martian canals against John Snow's cholera map, the hot hand and the London Blitz clustering illusion, the Barnum effect, split-brain confabulation, and Alan Turing's break of Enigma — showing when pattern recognition finds real signal and when it manufactures noise into meaning.
 
 ## Files
 
