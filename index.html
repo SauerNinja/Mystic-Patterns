@@ -152,14 +152,10 @@ a{color:var(--brass-light);}
   z-index:999;transition:width .08s linear;}
 
 /* nav */
-nav{position:sticky;top:0;z-index:900;display:flex;align-items:center;justify-content:space-between;
+nav{position:sticky;top:0;z-index:900;display:flex;align-items:center;justify-content:center;
   padding:16px 5vw;background:rgba(22,15,12,0.88);backdrop-filter:blur(6px);
   border-bottom:1px solid rgba(184,135,79,0.25);}
 .nav-brand{font-size:1.25rem;letter-spacing:0.12em;color:var(--brass-light);text-decoration:none;text-transform:uppercase;}
-.nav-links{display:flex;gap:28px;font-family:var(--mono-util);font-size:0.78rem;letter-spacing:0.06em;text-transform:uppercase;}
-.nav-links a{color:var(--parchment-dim);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;}
-.nav-links a:hover{color:var(--scarlet-bright);border-color:var(--scarlet-bright);}
-@media (max-width:720px){.nav-links{display:none;}}
 
 /* hero */
 .hero-wrap{position:relative;width:100%;overflow:hidden;display:flex;justify-content:center;
@@ -171,7 +167,7 @@ nav{position:sticky;top:0;z-index:900;display:flex;align-items:center;justify-co
   background:linear-gradient(180deg,rgba(22,15,12,0) 78%,var(--ink) 100%);}
 
 /* index / section nav strip below intro */
-.index-strip{max-width:760px;margin:0 auto;padding:0 6vw 10px;display:flex;flex-wrap:wrap;
+.index-strip{max-width:760px;margin:0 auto;padding:28px 6vw 30px;display:flex;flex-wrap:wrap;
   gap:10px 26px;justify-content:center;border-bottom:1px solid rgba(184,135,79,0.25);
   padding-bottom:26px;margin-bottom:6px;}
 .index-strip a{font-family:var(--mono-util);font-size:0.8rem;letter-spacing:0.08em;
@@ -259,6 +255,11 @@ footer a{color:var(--brass-light);}
   <p class="meta-line">A research article by Setvin Noether · Est. 64 min read</p>
 </div>
 
+<section>
+  <p class="lede">Every prophecy, every conspiracy theory, every face seen in a wood-grain wall, and every divine voice heard by an ancient king are downstream of the same biological event: a brain lowering its threshold for what counts as a pattern. This article argues that hyperactive pattern recognition is not a rare malfunction confined to the mentally ill. It is a single, well-documented neurological spectrum, one that drugs switch on chemically, brain injury switches on structurally, trauma switches on defensively, and ancient ritual engineering switched on deliberately, centuries before anyone had a word for dopamine.</p>
+  <p>Psychologists call the endpoint of that spectrum <strong>apophenia</strong>: the perception of meaningful connections between things that are, in fact, unconnected. The term was coined in 1958 by the German neurologist Klaus Conrad, who was not describing mystics or addicts but patients in the earliest stages of schizophrenia — people who reported, before any hallucination arrived, a growing and inescapable sense that everything around them had suddenly become <em>about</em> them. What follows is a case that this single mechanism, run through different hardware and different chemistry, explains the Pythia at Delphi, the dopamine psychosis of a stimulant addict, the bump-reading confidence of a 19th-century phrenologist, and the modern brain scrolling a social feed looking for a sign.</p>
+</section>
+
 <nav class="index-strip" aria-label="Section index">
   <a href="#chemistry">Chemistry</a>
   <a href="#delphi">Delphi</a>
@@ -268,11 +269,6 @@ footer a{color:var(--brass-light);}
   <a href="#evidence">Evidence</a>
   <a href="#open-questions">Open Questions</a>
 </nav>
-
-<section>
-  <p class="lede">Every prophecy, every conspiracy theory, every face seen in a wood-grain wall, and every divine voice heard by an ancient king are downstream of the same biological event: a brain lowering its threshold for what counts as a pattern. This article argues that hyperactive pattern recognition is not a rare malfunction confined to the mentally ill. It is a single, well-documented neurological spectrum, one that drugs switch on chemically, brain injury switches on structurally, trauma switches on defensively, and ancient ritual engineering switched on deliberately, centuries before anyone had a word for dopamine.</p>
-  <p>Psychologists call the endpoint of that spectrum <strong>apophenia</strong>: the perception of meaningful connections between things that are, in fact, unconnected. The term was coined in 1958 by the German neurologist Klaus Conrad, who was not describing mystics or addicts but patients in the earliest stages of schizophrenia — people who reported, before any hallucination arrived, a growing and inescapable sense that everything around them had suddenly become <em>about</em> them. What follows is a case that this single mechanism, run through different hardware and different chemistry, explains the Pythia at Delphi, the dopamine psychosis of a stimulant addict, the bump-reading confidence of a 19th-century phrenologist, and the modern brain scrolling a social feed looking for a sign.</p>
-</section>
 
 <section id="chemistry" class="vapor-stage">
   <svg class="vapor-field" viewBox="0 0 800 500" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
