@@ -152,7 +152,7 @@ a{color:var(--brass-light);}
   z-index:999;transition:width .08s linear;}
 
 /* nav */
-nav{position:sticky;top:0;z-index:900;display:flex;align-items:center;justify-content:center;
+nav.top-nav{position:sticky;top:0;z-index:900;display:flex;align-items:center;justify-content:center;
   padding:16px 5vw;background:rgba(22,15,12,0.88);backdrop-filter:blur(6px);
   border-bottom:1px solid rgba(184,135,79,0.25);}
 .nav-brand{font-size:1.25rem;letter-spacing:0.12em;color:var(--brass-light);text-decoration:none;text-transform:uppercase;}
@@ -167,7 +167,7 @@ nav{position:sticky;top:0;z-index:900;display:flex;align-items:center;justify-co
   background:linear-gradient(180deg,rgba(22,15,12,0) 78%,var(--ink) 100%);}
 
 /* index / section nav strip below intro */
-.index-strip{max-width:760px;margin:0 auto;padding:28px 6vw 30px;display:flex;flex-wrap:wrap;
+.index-strip{position:static;max-width:760px;margin:0 auto;padding:28px 6vw 30px;display:flex;flex-wrap:wrap;
   gap:10px 26px;justify-content:center;border-bottom:1px solid rgba(184,135,79,0.25);
   padding-bottom:26px;margin-bottom:6px;}
 .index-strip a{font-family:var(--mono-util);font-size:0.8rem;letter-spacing:0.08em;
@@ -191,7 +191,6 @@ h2{font-size:clamp(1.7rem,3.4vw,2.3rem);color:var(--brass-light);border-bottom:1
 h3{font-size:1.35rem;color:var(--scarlet-bright);margin-top:34px;}
 p{margin:0 0 20px;}
 .lede{font-size:1.32rem;color:var(--parchment);}
-.pull{border-left:3px solid var(--scarlet);padding:4px 0 4px 22px;margin:32px 0;font-style:italic;color:var(--brass-light);font-size:1.25rem;}
 .callout{background:rgba(184,135,79,0.08);border:1px solid rgba(184,135,79,0.3);border-radius:2px;padding:22px 26px;margin:28px 0;}
 .callout .label{font-family:var(--mono-util);font-size:0.75rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--scarlet-bright);display:block;margin-bottom:8px;}
 table{width:100%;border-collapse:collapse;margin:24px 0;font-size:1rem;}
@@ -239,7 +238,7 @@ footer a{color:var(--brass-light);}
 
 <div id="progress"></div>
 
-<nav>
+<nav class="top-nav">
   <a href="#top" class="nav-brand">Mystic Patterns</a>
 </nav>
 
